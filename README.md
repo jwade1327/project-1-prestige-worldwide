@@ -10,8 +10,8 @@ The ultimate goal of this site or concept is to be adapted into a site like band
 Open AgorAPI - We used this API to run the donation tracking. It is a polling api that allows us to create a poll on the api servers and then send donations to the poll where it is tracked and the results are returned to us to be used in creating the chart showing the current donation progress. The api uses a credit system with each api call costing credits, so the poll information is saved to localStorage to allow the data to be displayed and worked with while minimizing the number of calls made.
 Google Charts - When the poll data is updated, such as when a donation is made, the data returned from Open AgorAPI is given to Google Charts (a non-server side API) that creates the chart based on the current information.
 
-https://github.com/jdlawton/prestige-worldwide - repo
-https://jdlawton.github.io/prestige-worldwide/  - Live
+https://github.com/jwade1327/project-1-prestige-worldwide - repo
+https://jwade1327.github.io/project-1-prestige-worldwide/  - Live
 
 ![Project Screenshot1](/screenshot1.png?raw=true)
 ![Project Screenshot2](/screenshot2.png?raw=true)
